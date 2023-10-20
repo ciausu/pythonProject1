@@ -1,62 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Pauza de mate</title>
- <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <meta name="author" content="Ciausu Ana" />
+    <meta name="robots" content="index,follow" />
+    <link rel="static" href="style.css" />
+    <title>Ciausu Ana - Profesor matematică</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="page-container">
+        <!-- Start profile section -->
 
-    #menu {
-      background-color: #f0f0f0;
-      padding: 10px;
-    }
+          <div class="profile-details">
+              Salut! Eu sunt Ciausu Ana, îndrumătorul tău, care te va ajuta sa înțelegi concepte matematice
+            </p>
+          </div>
+          <div class="tags">
+            <span>#math</span>
+            <span>#study</span>
+          </div>
+        </section>
+        <!-- End profile section -->
 
-    #menu ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
+        <!-- Start projects section -->
+        <section class="projects"><br>
+          <div class="projects-container">
+            <div class="project">
+              <div class="project-details">
+                <a href="https://manuale.edu.ro/manuale/Clasa%20a%20V-a/Matematica/UEFSQUxFTEEgNDU/A1255.pdf" target="_blank" class="btn-outline">
+                  Vezi proiectul
+                </a>
+              </div>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxRdF2RN136M986tUeRJ9151E9nZfaVyUZOfAjoCG3Upq8AttC9ryaAETBXwF_OTtfkk&usqp=CAU" alt="website de prezentare hotel" />
+              <p class="project-title">CLASA V</p>
+            </div>
+            <div class="project">
+              <div class="project-details">
+                <p>CLASA VI</p>
+                <a href="https://manuale.edu.ro/manuale/Clasa%20a%20VI-a/Matematica/Qm9va2xldA/#p=5" target="_blank" class="btn-outline">
+                  Vezi proiectul
+                </a>
+              </div>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxRdF2RN136M986tUeRJ9151E9nZfaVyUZOfAjoCG3Upq8AttC9ryaAETBXwF_OTtfkk&usqp=CAU" alt="imagine aplicatie trivia" />
+              <p class="project-title">
+               CLASA VI
+              </p>
+            </div>
+            <div class="project">
+              <div class="project-details">
+                <p>
+                  CLASA VII
+                </p>
+                <a href="https://manuale.edu.ro/manuale/Clasa%20a%20VII-a/Matematica/U0MgSU5UVUlURVhUIFNS/" target="_blank" class="btn-outline">
+                  Vezi proiectul
+                </a>
+              </div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxRdF2RN136M986tUeRJ9151E9nZfaVyUZOfAjoCG3Upq8AttC9ryaAETBXwF_OTtfkk&usqp=CAU"
+                alt="mate"
+              />
+              <p class="project-title">
+                CLASA VII
+              </p>
+            </div>
+          </div>
+           <div class="project">
+              <div class="project-details">
+                <p>
+                  CLASA VII
+                </p>
+                <a href="#" target="_blank" class="btn-outline">
+                </a>
+              </div>
+             </div>
+            <div class="project">
+              <div class="project-details">
+                <p>
+                  CLASA VII
+                </p>
+                <a href="https://manuale.edu.ro/manuale/Clasa%20a%20VIII-a/Matematica/SU5UVUlURVhUICBTLlIu/" target="_blank" class="btn-outline">
+               Vezi proiectul
+                </a>
+              </div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxRdF2RN136M986tUeRJ9151E9nZfaVyUZOfAjoCG3Upq8AttC9ryaAETBXwF_OTtfkk&usqp=CAU"
+                alt="Vezi proiectul"/>
+              <p class="project-title">
+                CLASA VIII
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- End projects section -->
 
-    #menu li {
-      display: inline;
-      margin-right: 10px;
-    }
-
-    #menu li a {
-      text-decoration: none;
-      color: #333;
-      padding: 5px 10px;
-      border-radius: 5px;
-      transition: background-color 0.3s;
-    }
-
-    #menu li a:hover {
-      background-color: #ccc;
-    }
-  </style>
-</head>
-<body>
-<h1 align="center">HAI SĂ INVĂȚĂM MATE IMPREUNĂ</h1><br>
-
-<div id="menu">
-  <ul>
-    <li><a href="html2">Mate V</a></li>
-    <li><a href="#">MATE VI</a></li>
-    <li><a href="#">MATE VII</a></li>
-    <li><a href="#">MATE VIII</a></li>
-  </ul>
-</div>
-
-<!-- Restul conținutului paginii aici -->
-
-</body>
-</html>
-</style>
-</head>
-</head>
-<body>
-
-</body>
+        <!-- Start contact section -->
+        <section class="contact">
+          <h2 class="section-title">Contact</h2>
+          <ul class="profile-links">
+            <li>
+              <a href="https://www.facebook.com/ana.ciausu.524" target="_blank"> Pagina de Facebook </a>
+            </li>
+            <li>
+              <a href="mailto:ciausuana3@gmail.com" target="_blank">
+                Trimite-mi un email
+              </a>
+            </li>
+          </ul>
+        </section>
+        <!-- End contact section -->
+      </div>
+    </main>
+  </body>
 </html>
